@@ -11,6 +11,12 @@
 - **约 100 个主题变量**全覆盖(表面、tab/标题条、输入区、菜单、文字档位、
   边框、按钮、交互态、代码、滚动条)。
 
+## 预览
+
+| 亮色模式 | 暗色模式 |
+| --- | --- |
+| <img src="screenshots/light.jpeg" width="420" alt="亮色模式"> | <img src="screenshots/dark.jpeg" width="420" alt="暗色模式"> |
+
 ## 原理
 
 dsh 前端暴露 `theme` client 服务,`overrideTokens(source, tokens)` 会把

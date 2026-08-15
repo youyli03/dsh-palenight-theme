@@ -12,6 +12,12 @@ modification — by stacking a token layer over the active theme.
 - **~100 theme variables** covered (surfaces, tabs/headers, inputs, menus,
   text tiers, borders, buttons, interactive states, code, scrollbars).
 
+## Preview
+
+| Light | Dark |
+| --- | --- |
+| <img src="screenshots/light.jpeg" width="420" alt="Light mode"> | <img src="screenshots/dark.jpeg" width="420" alt="Dark mode"> |
+
 ## How it works
 
 The dsh web frontend exposes a `theme` client service. `overrideTokens(source,
