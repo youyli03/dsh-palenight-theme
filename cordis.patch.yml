@@ -1,0 +1,6 @@
+# dsh bundle layer: mount the palenight theme row. The row exists so the
+# client-modules registry scans this package and finds its `dsh.client`
+# declaration; the theme itself is applied entirely in the browser half.
+- insert:
+    - id: dsh-palenight-theme
+      name: dsh-palenight-theme

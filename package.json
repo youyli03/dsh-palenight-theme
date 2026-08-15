@@ -1,0 +1,22 @@
+{
+  "name": "dsh-palenight-theme",
+  "version": "1.0.0",
+  "description": "Persistent DeepSeek Palenight Theme for dsh — a dsh client bundle (survives restarts, unlike the dynamic-plugin form).",
+  "type": "module",
+  "exports": {
+    ".": "./plugin/host-module.js",
+    "./client": "./plugin/client-module.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "license": "MIT"
+}
